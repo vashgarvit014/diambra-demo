@@ -26,7 +26,7 @@ This AI agent uses Reinforcement Learning (specifically PPO from Stable Baseline
    python -m pip install --upgrade pip
    pip install numpy==1.23
    python -m pip install diambra
-   python -m pip install diambra-arena
+   c
    pip install diambra-arena[stable-baselines3]
    ```
 

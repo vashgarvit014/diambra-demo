@@ -1,0 +1,11 @@
+mode: AIvsCOM
+image: diambra/arena-stable-baselines3-on3.10-bullseye:main
+command:
+  - python
+  - "/sources/submissionagent.py"
+  - "--cfgFile"
+  - "/sources/rom/cfg_files/sfiii3n/sr6_128x4_das_nc.yaml"
+  - "--trainedModel"
+  - "/sources/results/sfiii3n/sr6_128x4_das_nc/model/model.zip"
+sources:
+  .: git+https://[User]:{{.Secrets.token}}@github.com/[User]/[ProjectName].git#ref=Master
