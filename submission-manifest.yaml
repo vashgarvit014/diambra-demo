@@ -8,4 +8,5 @@ command:
   - "--trainedModel"
   - "/sources/results/sfiii3n/sr6_128x4_das_nc/model/model.zip"
 sources:
-  .: git+https://[User]:{{.Secrets.token}}@github.com/[User]/[ProjectName].git#ref=Master
+
+  .: git+https://vashgarvit014:{{.Secrets.token}}@github.com/vashgarvit014/diambra-demo.git#ref=master
